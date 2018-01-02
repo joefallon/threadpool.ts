@@ -1,0 +1,4 @@
+"use strict";
+describe('ThreadWorker', function () {
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiVGhyZWFkV29ya2VyLnRlc3QuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJUaHJlYWRXb3JrZXIudGVzdC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUEsUUFBUSxDQUFDLGNBQWMsRUFBRTtBQUV6QixDQUFDLENBQUMsQ0FBQyJ9

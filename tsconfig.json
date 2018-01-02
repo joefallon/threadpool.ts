@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "downlevelIteration": true,
+    "inlineSourceMap": true,
+    "importHelpers": true,
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "skipLibCheck": true,
+    "strictFunctionTypes": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

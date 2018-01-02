@@ -1,0 +1,40 @@
+{
+  "name": "threadpool.ts",
+  "version": "0.0.0",
+  "description": "Zero dependency thread pool for Node and the browser written in TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "mocha": "./node_modules/mocha/bin/mocha",
+    "test:node": "npm run --silent mocha -- './src/**/*.test.js' --reporter dot || true",
+    "test:node:watch": "npm run mocha -- './src/**/*.test.js' --reporter dot --watch",
+    "test:browser": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joefallon/threadpool.ts.git"
+  },
+  "keywords": [
+    "threadpool",
+    "thread",
+    "pool",
+    "web",
+    "workers"
+  ],
+  "author": "Joe Fallon <joseph.t.fallon@gmail.com> (http://blog.joefallon.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joefallon/threadpool.ts/issues"
+  },
+  "homepage": "https://github.com/joefallon/threadpool.ts#readme",
+  "devDependencies": {
+    "@types/mocha": "^2.2.45",
+    "@types/node": "^8.5.2",
+    "assert": "^1.4.1",
+    "mocha": "^4.1.0"
+  },
+  "dependencies": {
+    "@types/es6-promise": "0.0.33",
+    "es6-promise": "^4.2.2",
+    "tslib": "^1.8.1"
+  }
+}
